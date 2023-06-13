@@ -1,7 +1,9 @@
 
-# Optimize your development process with a pre-configured Boilerplate Hardhat and a ready-to-use Frontend setup
+# Final Proyect
 
-Project setup with a comprehensive backend that implements contracts using HardHat, OpenZeppelin, and Typechain, coupled with a dynamic frontend featuring powerful frameworks like Wagmi, Rainbowkit, and UI libraries such as Tailwind and/or Chakra-UI.
+Project setup for the final presentation of The Encode Bootcamp 
+It is a simple Guess number where the deployer = owner, sets a mistery number and a bounty for whom guesses, each time a 
+anyone attremps to guess it must pay a FEE, which will go to the owner.
 
 
 Commands:
