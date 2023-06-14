@@ -4,7 +4,7 @@ import { ConnectButton } from "@rainbow-me/rainbowkit";
 const Header = () => {
   return (
     <div>
-      <nav className="p-4 flex justify-end  w-full  bg-sky-500">
+      <nav className="p-4 flex justify-end w-full  bg-sky-500 shadow-lg">
         <ConnectButton></ConnectButton>
       </nav>
     </div>

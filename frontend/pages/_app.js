@@ -21,7 +21,7 @@ const { chains, provider } = configureChains(
 );
 
 const { connectors } = getDefaultWallets({
-  appName: "Infura Lottery DApp",
+  appName: "GuessNumber",
   chains,
 });
 
