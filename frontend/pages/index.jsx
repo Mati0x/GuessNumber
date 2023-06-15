@@ -13,7 +13,7 @@ export default function Home() {
           <div className="flex-auto max-w-[30%] p-2">
             <ReadContratData />
           </div>
-          <div className=" flex-1 flex flex-col space-y-16 p-2">
+          <div className=" flex-1 flex flex-col space-y-8 p-2">
             <div className=" flex-1">
               <DeployerWriteContract />
             </div>
