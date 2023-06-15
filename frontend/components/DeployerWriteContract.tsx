@@ -49,6 +49,7 @@ export const DeployerWriteContract = () => {
             isSuccess={isSuccess}
             data={data}
           />
+
           <ContractUI
             Title="Reset the mistery"
             onClick={() => resetGame?.()}

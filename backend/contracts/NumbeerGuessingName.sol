@@ -106,6 +106,10 @@ contract NumberGuessingGame {
     function resetGame(
         uint256 _misteryNumber
     ) external payable onlyOwner setPrizeAmount {
+        require(
+            _misteryNumber >= 1 && _misteryNumber <= 1000,
+            "Number must be between 1 and 1000"
+        );
         misteryNumber = _misteryNumber;
         prizePool = PRIZE_AMOUNT;
         betPool = 0;
